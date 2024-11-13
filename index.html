@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agric Chatbot</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js" defer></script> <!-- 'defer' ensures JS loads after HTML -->
+</head>
+<body onload="init()">
+    <div id="main">
+        <h2>Agric Chatbot</h2>
+        <div id="msg">
+            <div id="robot">
+                <div class="bot"></div>
+                <h3>Agric Chatbot</h3>
+            </div>
+        </div>
+
+        <!-- Input area for user messages -->
+        <div class="input">
+            <input type="text" id="msg_send" placeholder="New Message"> 
+            <button class="send" id="reply">Send <i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+</body>
+</html>
